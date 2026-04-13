@@ -49,3 +49,14 @@ body{
     background: #222;
     color: white;
 }
+#next-btn{
+    background: #001e4d;
+    color:white;
+    border-radius: 4px;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    display: none;
+}
