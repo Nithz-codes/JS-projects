@@ -50,3 +50,8 @@ function startQuiz(){
     nextbutton.innerHTML="Next";
     showQuestion();
 }
+function showQuestion(){
+    let currentQuestion = question[currentQuestionIndex];
+    let questionNumber = currentQuestionIndex + 1;
+    questionelement.innerHTML =questionNumber + ". "+ currentQuestion.question;
+}
