@@ -36,4 +36,7 @@ const question = [
             {text: "Sri Lanka" , correct : false},
         ]
     }   
-]
+];
+const questionelement =document.getElementById("question");
+const answerbuttons =document.getElementById("answer-buttons");
+const nextbutton =document.getElementById("next-btn");
